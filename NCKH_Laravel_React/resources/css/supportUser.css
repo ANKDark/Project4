@@ -1,0 +1,62 @@
+.bg-top-sup {
+    background-color: #181C14;
+    color: #ffffff;
+}
+
+.bg-bottom-sup {
+    background-color: #3C3D37;
+    color: #ffffff;
+}
+
+.bg-items-sup {
+    background-color: #4A4947;
+    color: #f3e9e9;
+}
+
+.custom-input-sup,
+.ck-editor__editable.ck-blurred,
+.ck-editor__editable.ck-focused {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    appearance: none !important;
+    border: 1px solid #cbd5e0 !important;
+    border-radius: 0.25rem !important;
+    width: 100% !important;
+    padding-top: 0.5rem !important;
+    background-color: #2d2d2d !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    color: #ffffff !important;
+    line-height: 1.5 !important;
+    outline: none !important;
+    transition: border 0.2s, box-shadow 0.2s !important;
+}
+
+.ck-content {
+    min-height: 120px !important;
+}
+
+.ck-toolbar__items {
+    background-color: #2d2d2d !important;
+}
+
+.ck {
+    color: #ebe0e0 !important;
+    background-color: #2d2d2d !important;
+}
+
+.ck-evaluation-badge,
+.ck-evaluation-badge-balloon {
+    display: none !important;
+}
+
+
+.custom-input-sup:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+    color: #ebe0e0;
+}
+
+.custom-input-sup::placeholder {
+    color: #fcfcfc !important;
+    opacity: 0.5;
+}

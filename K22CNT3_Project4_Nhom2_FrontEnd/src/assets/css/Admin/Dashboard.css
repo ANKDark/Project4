@@ -1,0 +1,52 @@
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.border-secondary {
+    border-color: #6c757d !important;
+}
+
+.btn-outline-primary, .btn-outline-info, .btn-outline-warning, .btn-outline-danger, .btn-outline-success {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover, .btn-outline-info:hover, .btn-outline-warning:hover, 
+.btn-outline-danger:hover, .btn-outline-success:hover {
+    color: #fff !important;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-2-5 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

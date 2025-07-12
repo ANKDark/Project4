@@ -1,0 +1,75 @@
+textarea.form-control {
+    border-radius: 25px;
+    padding: 12px;
+}
+
+button.btn-style-unv {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.a-custom-hover {
+    color: #cbcce6;
+}
+
+.a-custom-hover:hover {
+    color: #505963;
+    transition: color 0.2s ease-in-out;
+}
+
+.btn-liked {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.btn-liked:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.btn-disLiked {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-disLiked:hover {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.text-color {
+    color: #ffffff !important;
+}
+
+.bg-details {
+    background-color: #4a4b4d !important;
+}
+
+.select-f.form-select {
+    background-color: #4a4b4d;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-image: none;
+    border: 2px solid #91959c;
+}
+
+.neon-text {
+  color: #ffffff;
+  text-shadow:
+    0 0 2px #89f0ff,
+    0 0 4px #89f0ff,
+    0 0 6px #00c3ff;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.neon-glow {
+  border-radius: 2px;
+  box-shadow:
+    0 0 12px rgba(200, 210, 255, 0.4),
+    0 0 22px rgba(180, 200, 255, 0.35),
+    0 0 38px rgba(150, 180, 255, 0.3),
+    0 0 60px rgba(150, 180, 255, 0.15),
+    0 0 100px rgba(150, 180, 255, 0.1);
+}

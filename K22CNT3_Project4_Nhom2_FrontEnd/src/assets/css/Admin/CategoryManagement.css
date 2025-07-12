@@ -1,0 +1,151 @@
+.admin-card {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 2px #ffffffaa, 0 0 4px #ffffff99, 0 0 8px #ffffff88;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #fff;
+}
+
+.admin-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 8px #ffffffaa, 0 0 16px #ffffff99, 0 0 24px #ffffff88;
+}
+
+.admin-card .admin-info li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.admin-card .admin-info i {
+    color: #888;
+    margin-right: 0.5rem;
+}
+
+.admin-card .card-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: #fff;
+}
+
+.admin-card .badge {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 0.375rem;
+}
+
+.admin-card .btn {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+}
+
+.search-acc::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.search-acc:focus {
+    box-shadow: 0 0 22px rgba(180, 200, 255, 0.35),
+        0 0 38px rgba(150, 180, 255, 0.3), 0 0 60px rgba(150, 180, 255, 0.15),
+        0 0 100px rgba(150, 180, 255, 0.1);
+}
+
+.admin-toggle-tabs {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.admin-toggle-tab {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #1e1e1e;
+    color: #ccc;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.admin-toggle-tab i {
+    font-size: 1rem;
+}
+
+.admin-toggle-tab:hover {
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.admin-toggle-tab.active-admin {
+    background-color: #548ee4;
+    color: #fff;
+}
+
+.admin-toggle-tab.active-user {
+    background-color: #548ee4;
+    color: #fff;
+}
+
+.btn-addAcc:hover {
+    border-color: #ffffff;
+    box-shadow: 0 0 22px rgba(180, 200, 255, 0.35),
+        0 0 38px rgba(150, 180, 255, 0.3), 0 0 60px rgba(150, 180, 255, 0.15),
+        0 0 100px rgba(150, 180, 255, 0.1);
+}
+
+.select-acc:focus {
+    box-shadow: 0 0 22px rgba(180, 200, 255, 0.35),
+        0 0 38px rgba(150, 180, 255, 0.3), 0 0 60px rgba(150, 180, 255, 0.15),
+        0 0 100px rgba(150, 180, 255, 0.1);
+}
+
+.custom-input-sup {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
+    appearance: none !important;
+    border: 1px solid #cbd5e0 !important;
+    border-radius: 0.25rem !important;
+    width: 100% !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    color: #ffffff !important;
+    line-height: 1.5 !important;
+    outline: none !important;
+    transition: border 0.2s, box-shadow 0.2s !important;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    min-width: 300px;
+}
+
+.btn-srch::placeholder {
+    color: #b0b3b8;
+}
+
+.btn-srch,
+.btn-selectedDate {
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn-srch:active,
+.btn-selectedDate:active {
+    box-shadow: 0 0 8px #ffffffaa, 0 0 16px #ffffff99, 0 0 24px #ffffff88;
+    transform: scale(0.97);
+}
+
+.btn-srch:focus,
+.btn-selectedDate:focus {
+    box-shadow: 0 0 8px #ffffffaa, 0 0 16px #ffffff99, 0 0 24px #ffffff88;
+}
